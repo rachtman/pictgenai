@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<style type="text/css">
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        max-width:800px;
+        grid-auto-flow:dense;
+        margin: 0 auto;
+    }
+    
+    .parent div {
+        background:gray;
+        overflow:hidden;
+
+    }
+    
+    .parent img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        overflow:hidden;
+    }
+    
+    .div1 {
+        grid-area: 1 / 1 / 4 / 3;
+    }
+    
+    .div2 {
+        grid-area: 1 / 3 / 3 / 4;
+    }
+    
+    .text {
+        padding:15px;
+        background:yellow!important;
+        display:flex;
+        flex-direciton:column;
+        align-items:center;
+    }
+    
+    @media (max-width: 420px) {
+        .parent {
+        grid-template-columns: 1fr;
+    }
+        .div1 {
+        grid-area: auto;
+    }
+    
+    .div2 {
+        grid-area: auto;
+    }
+    }
+    
+    .content_container {
+        max-width:400px;
+        margin: 0 auto;
+        padding:30px;
+    }
+    
+    .section_black {
+        background:#000;
+    }
+    
+    
+</style>
+</head>
+
+<body>
+<div class="page_container">
+    <div class="section_black">
+        <div class="content_container">
+    
+        <div class="parent">
+            <div class="div1">
+                <img alt="placeholder" src="https://decorative.ai/_next/image?url=https%3A%2F%2Fdecorativeai.s3.us-west-2.amazonaws.com%2Fproduction%2FFFIM5EYR7G0uFZuqi96QU-%2Fimages%2FPgLRvf4S0qLkoV77i3IcP6%2F16x16-1024x1024.png&w=1080&q=75"/>
+            </div>
+
+            <div class="div2 text">
+            <h4>In the Coloring Book Style, Lonely mood in the Coloring Book Style, Lonely mood in the Coloring Book Style, Lonely</h4>
+            </div>
+
+            <div class="div3">
+                <img alt="placeholder" src="https://decorative.ai/_next/image?url=https%3A%2F%2Fdecorativeai.s3.us-west-2.amazonaws.com%2Fproduction%2FFFIM5EYR7G0uFZuqi96QU-%2Fimages%2FfD4rlOtqwHmzjmBmay1CU3%2F16x16-1024x1024.png&w=1080&q=75"/>
+            </div>
+
+            <div class="div4">
+                <img alt="placeholder" src="https://decorative.ai/_next/image?url=https%3A%2F%2Fdecorativeai.s3.us-west-2.amazonaws.com%2Fproduction%2FFFIM5EYR7G0uFZuqi96QU-%2Fimages%2FfD4rlOtqwHmzjmBmay1CU3%2F16x16-1024x1024.png&w=1080&q=75"/>
+            </div>
+
+            <div class="div5">
+                <img alt="placeholder" src="https://decorative.ai/_next/image?url=https%3A%2F%2Fdecorativeai.s3.us-west-2.amazonaws.com%2Fproduction%2FFFIM5EYR7G0uFZuqi96QU-%2Fimages%2FfD4rlOtqwHmzjmBmay1CU3%2F16x16-1024x1024.png&w=1080&q=75"/>
+            </div>
+
+            <div class="div6">
+                <img alt="placeholder" src="https://decorative.ai/_next/image?url=https%3A%2F%2Fdecorativeai.s3.us-west-2.amazonaws.com%2Fproduction%2FFFIM5EYR7G0uFZuqi96QU-%2Fimages%2FfD4rlOtqwHmzjmBmay1CU3%2F16x16-1024x1024.png&w=1080&q=75"/>
+            </div>
+
+            <div class="div7">
+                <img alt="placeholder" src="https://decorative.ai/_next/image?url=https%3A%2F%2Fdecorativeai.s3.us-west-2.amazonaws.com%2Fproduction%2FFFIM5EYR7G0uFZuqi96QU-%2Fimages%2FfD4rlOtqwHmzjmBmay1CU3%2F16x16-1024x1024.png&w=1080&q=75"/>
+            </div>
+
+            <div class="div8">
+                <img alt="placeholder" src="https://decorative.ai/_next/image?url=https%3A%2F%2Fdecorativeai.s3.us-west-2.amazonaws.com%2Fproduction%2FFFIM5EYR7G0uFZuqi96QU-%2Fimages%2FfD4rlOtqwHmzjmBmay1CU3%2F16x16-1024x1024.png&w=1080&q=75"/>
+            </div>
+
+            <div class="div9">
+                <img alt="placeholder" src="https://decorative.ai/_next/image?url=https%3A%2F%2Fdecorativeai.s3.us-west-2.amazonaws.com%2Fproduction%2FFFIM5EYR7G0uFZuqi96QU-%2Fimages%2FfD4rlOtqwHmzjmBmay1CU3%2F16x16-1024x1024.png&w=1080&q=75"/>
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
